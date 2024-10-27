@@ -1,0 +1,111 @@
+﻿@model ProyectoControlDePermisos.Models.Empleados
+
+@{
+    ViewData["Title"] = "Detalles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background-color: #eef2f3; /* Fondo claro */
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        color: #333;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2c3e50; /* Color oscuro */
+        margin: 40px 0;
+        font-size: 2.5em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background: #ffffff; /* Fondo blanco */
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más marcada */
+        border: 1px solid rgba(41, 128, 185, 0.5); /* Borde celeste sutil */
+    }
+
+    .dl-horizontal dt {
+        color: #2980b9; /* Color del texto de las etiquetas */
+        font-weight: bold; /* Negrita */
+        padding-top: 10px;
+    }
+
+    .dl-horizontal dd {
+        margin-left: 0; /* Alinear las descripciones */
+        padding-top: 10px;
+    }
+
+    .btn {
+        background-color: #2980b9; /* Azul */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px; /* Bordes redondeados */
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra del botón */
+    }
+
+    .btn:hover {
+        background-color: #1a639b; /* Azul más oscuro al pasar el ratón */
+        transform: translateY(-2px); /* Efecto de elevación */
+    }
+
+    .back-link {
+        display: inline-block;
+        margin-top: 20px;
+        color: #2980b9; /* Azul */
+        font-weight: bold; /* Negrita */
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .back-link:hover {
+        color: #1a639b;
+    }
+</style>
+
+<div class="container">
+    <h1>Detalles del Empleado</h1>
+
+    <div>
+        <h4>Empleado</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>@Html.DisplayNameFor(model => model.NombreCompleto)</dt>
+            <dd>@Html.DisplayFor(model => model.NombreCompleto)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Cargo)</dt>
+            <dd>@Html.DisplayFor(model => model.Cargo)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.FechaContratacion)</dt>
+            <dd>@Html.DisplayFor(model => model.FechaContratacion)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Correo)</dt>
+            <dd>@Html.DisplayFor(model => model.Correo)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Telefono)</dt>
+            <dd>@Html.DisplayFor(model => model.Telefono)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.DPI)</dt>
+            <dd>@Html.DisplayFor(model => model.DPI)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.EstadoActivo)</dt>
+            <dd>@Html.DisplayFor(model => model.EstadoActivo)</dd>
+        </dl>
+    </div>
+
+    <div>
+        <a class="btn" asp-action="Edit" asp-route-id="@Model?.IdEmpleado">Editar</a> |
+        <a class="back-link" asp-action="Index">⬅️ Regresar</a>
+    </div>
+</div>

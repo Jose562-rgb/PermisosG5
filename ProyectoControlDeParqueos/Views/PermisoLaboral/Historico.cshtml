@@ -1,0 +1,86 @@
+﻿@model IEnumerable<ProyectoControlDePermisos.Models.PermisoLaboralVista>
+
+@{
+    ViewData["Title"] = "Histórico de Permisos";
+}
+
+<style>
+    body {
+        background-color: #eef2f3; /* Fondo claro */
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        color: #333;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2c3e50; /* Color oscuro */
+        margin: 40px 0;
+        font-size: 2.5em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+        background: #ffffff; /* Fondo blanco */
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más marcada */
+        border: 1px solid rgba(41, 128, 185, 0.5); /* Borde celeste sutil */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-size: 16px; /* Tamaño de fuente más grande */
+    }
+
+    th, td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #dfe6e9; /* Línea divisoria clara */
+    }
+
+    th {
+        background-color: #f7f9fa; /* Fondo gris claro para el encabezado */
+        color: #34495e; /* Color más oscuro para el texto del encabezado */
+        font-weight: bold;
+        letter-spacing: 1px; /* Espaciado entre letras */
+        text-transform: uppercase; /* Texto en mayúsculas */
+    }
+
+    tr:hover {
+        background-color: rgba(41, 128, 185, 0.1); /* Resaltar fila al pasar el ratón */
+    }
+</style>
+
+<h1>Histórico de Permisos Laborales</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.First().TipoPermiso)</th>
+            <th>@Html.DisplayNameFor(model => model.First().FechaInicio)</th>
+            <th>@Html.DisplayNameFor(model => model.First().FechaFin)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Estado)</th>
+            <th>@Html.DisplayNameFor(model => model.First().IdEmpleado)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Observaciones)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.TipoPermiso)</td>
+                <td>@Html.DisplayFor(modelItem => item.FechaInicio)</td>
+                <td>@Html.DisplayFor(modelItem => item.FechaFin)</td>
+                <td>@Html.DisplayFor(modelItem => item.Estado)</td>
+                <td>@Html.DisplayFor(modelItem => item.IdEmpleado)</td>
+                <td>@Html.DisplayFor(modelItem => item.Observaciones)</td>
+            </tr>
+        }
+    </tbody>
+</table>

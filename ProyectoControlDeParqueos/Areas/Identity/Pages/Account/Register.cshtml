@@ -1,0 +1,128 @@
+﻿@page
+@model RegisterModel
+
+@{
+    ViewData["Title"] = "Registrar usuario";
+}
+
+<style>
+
+    body {
+        background: linear-gradient(135deg, #2980b9 0%, #2c3e50 100%);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .register-container {
+        background: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .form-icon {
+        margin-bottom: 20px;
+    }
+
+        .form-icon img {
+            width: 150px; 
+            border-radius: 50%;            
+        }
+
+    
+    label {
+        color: #34495e; 
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    input[type="text"] {
+        background: rgba(173, 216, 230, 0.2);
+        border: none;
+        border-radius: 30px;
+        padding: 15px;
+        margin-bottom: 20px;
+        color: #333;
+        width: 100%;
+        box-sizing: border-box;
+        outline: none;
+        transition: background-color 0.3s ease;
+    }
+
+    input:focus {
+        background-color: #ecf0f1;
+        box-shadow: 0 0 8px rgba(41, 128, 185, 0.8);
+    }
+
+    button[type="submit"] {
+        background-color: #2980b9; 
+        color: white;
+        padding: 15px;
+        width: 100%;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        font-weight: 600;
+    }
+
+        button[type="submit"]:hover {
+            background-color: #3498db; 
+        }
+
+    .text-danger {
+        color: #ff4d4d;
+    }
+
+    a {
+        color: #b5acaa; 
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<div class="register-container">
+    <div class="form-icon">
+        <img src="~/img/tt.png" alt="User Icon" />
+    </div>
+    <h2 style="color: #34495e;">Crear un nuevo usuario</h2> 
+    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+        <div class="form-group">
+            <label asp-for="Input.Email">Correo electrónico</label>
+            <input asp-for="Input.Email" autocomplete="off" aria-required="true" placeholder="name@example.com" />
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Input.Password">Contraseña</label>
+            <input asp-for="Input.Password" autocomplete="new-password" aria-required="true" placeholder="Contraseña" />
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Input.ConfirmPassword">Confirmar contraseña</label>
+            <input asp-for="Input.ConfirmPassword" autocomplete="new-password" aria-required="true" placeholder="Contraseña" />
+            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+        </div>
+        <button id="registerSubmit" type="submit">Registrar usuario</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

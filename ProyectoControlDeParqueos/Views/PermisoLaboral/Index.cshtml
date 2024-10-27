@@ -1,0 +1,165 @@
+﻿@model IEnumerable<ProyectoControlDePermisos.Models.PermisoLaboralVista>
+
+@{
+    ViewData["Title"] = "Permisos Laborales";
+    // Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background-color: #eef2f3; /* Fondo claro */
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        color: #333;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2c3e50; /* Color oscuro */
+        margin: 40px 0;
+        font-size: 2.5em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+        background: #ffffff; /* Fondo blanco */
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más marcada */
+        border: 1px solid rgba(41, 128, 185, 0.5); /* Borde celeste sutil */
+    }
+
+    .btn-create {
+        display: inline-block;
+        background-color: #2980b9; /* Azul */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px; /* Bordes redondeados */
+        cursor: pointer;
+        font-size: 16px;
+        text-decoration: none;
+        margin-bottom: 20px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra del botón */
+    }
+
+        .btn-create:hover {
+            background-color: #1a639b; /* Azul más oscuro al pasar el ratón */
+            transform: translateY(-2px); /* Efecto de elevación */
+        }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-size: 16px; /* Tamaño de fuente más grande */
+    }
+
+    th, td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #dfe6e9; /* Línea divisoria clara */
+    }
+
+    th {
+        background-color: #f7f9fa; /* Fondo gris claro para el encabezado */
+        color: #34495e; /* Color más oscuro para el texto del encabezado */
+        font-weight: bold;
+        letter-spacing: 1px; /* Espaciado entre letras */
+        text-transform: uppercase; /* Texto en mayúsculas */
+    }
+
+    tr:hover {
+        background-color: rgba(41, 128, 185, 0.1); /* Resaltar fila al pasar el ratón */
+    }
+
+    .action-links {
+        display: flex; /* Usar flexbox para alinear los enlaces */
+        gap: 15px; /* Espacio entre los enlaces */
+    }
+
+        .action-links a {
+            color: #2980b9; /* Azul */
+            text-decoration: none;
+            font-weight: bold; /* Negrita */
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+            .action-links a:hover {
+                color: #1a639b; /* Azul más oscuro al pasar el ratón */
+                transform: scale(1.1); /* Aumentar el tamaño al pasar el ratón */
+            }
+
+    .footer-text {
+        text-align: center;
+        color: #7f8c8d; /* Gris más claro */
+        margin-top: 30px;
+        font-size: 0.9em;
+        letter-spacing: 0.5px;
+    }
+
+    /* Añadir un efecto de animación a los enlaces de acción */
+    .action-links a {
+        position: relative;
+    }
+
+        .action-links a::after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 50%;
+            bottom: -5px; /* Un poco debajo del enlace */
+            width: 0;
+            height: 2px;
+            background: #2980b9; /* Azul */
+            transition: width 0.3s ease, left 0.3s ease;
+        }
+
+        .action-links a:hover::after {
+            width: 100%; /* Llenar el ancho del enlace al pasar el ratón */
+            left: 0;
+        }
+</style>
+
+
+<h1>Lista de Permisos Laborales</h1>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.TipoPermiso)</th>
+            <th>@Html.DisplayNameFor(model => model.FechaInicio)</th>
+            <th>@Html.DisplayNameFor(model => model.FechaFin)</th>
+            <th>@Html.DisplayNameFor(model => model.Estado)</th>
+            <th>@Html.DisplayNameFor(model => model.IdEmpleado)</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @if (item.Estado == "Pendiente")
+            {
+             
+            
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.TipoPermiso)</td>
+                <td>@Html.DisplayFor(modelItem => item.FechaInicio)</td>
+                <td>@Html.DisplayFor(modelItem => item.FechaFin)</td>
+                <td>@Html.DisplayFor(modelItem => item.Estado)</td>
+                <td>@Html.DisplayFor(modelItem => item.IdEmpleado)</td>
+                <td class="action-links">
+                    <a asp-action="Edit" asp-route-id="@item.IdPermiso">✔️ Abrir</a>
+                    <a asp-action="Details" asp-route-id="@item.IdPermiso">🔍 Detalles</a>
+                    @* <a asp-action="Delete" asp-route-id="@item.IdPermiso">🗑️ Eliminar</a> *@
+                </td>
+            </tr>
+            }
+        }
+    </tbody>
+</table>

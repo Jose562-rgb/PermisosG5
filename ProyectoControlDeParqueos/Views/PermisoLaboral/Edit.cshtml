@@ -1,0 +1,158 @@
+﻿@model ProyectoControlDePermisos.Models.PermisoLaboral
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background-color: #eef2f3; /* Fondo claro */
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        color: #333;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2c3e50; /* Color oscuro */
+        margin: 40px 0;
+        font-size: 2.5em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        text-align: center;
+        color: #2980b9; /* Color celeste */
+        margin-bottom: 20px;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background: #ffffff; /* Fondo blanco */
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más marcada */
+        border: 1px solid rgba(41, 128, 185, 0.5); /* Borde celeste sutil */
+    }
+
+    .form-group {
+        margin-bottom: 15px; /* Espaciado entre grupos de formulario */
+    }
+
+    label {
+        color: #2980b9; /* Color del texto de las etiquetas */
+        font-weight: bold; /* Negrita */
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #dfe6e9; /* Borde claro */
+        border-radius: 5px; /* Bordes redondeados */
+        transition: border-color 0.3s ease;
+    }
+
+    .form-control:focus {
+        border-color: #2980b9; /* Borde celeste al enfocar */
+        outline: none; /* Sin contorno */
+    }
+
+    .text-danger {
+        color: #ff4d4d; /* Color rojo para errores */
+    }
+
+    .btn-primary {
+        background-color: #2980b9; /* Azul */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px; /* Bordes redondeados */
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra del botón */
+    }
+
+    .btn-primary:hover {
+        background-color: #1a639b; /* Azul más oscuro al pasar el ratón */
+        transform: translateY(-2px); /* Efecto de elevación */
+    }
+
+    .back-link {
+        display: inline-block;
+        margin-top: 20px;
+        color: #2980b9; /* Azul */
+        font-weight: bold; /* Negrita */
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .back-link:hover {
+        color: #1a639b; /* Azul más oscuro al pasar el ratón */
+    }
+</style>
+
+<div class="container">
+    <h1>Aprobar/Rechazar Permiso Laboral</h1>
+
+    <h4>PermisoLaboral</h4>
+    <hr />
+    <form asp-action="Edit">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="IdPermiso"/>
+        <input type="hidden" asp-for="IdEmpleado"/>
+        <div class="form-group">
+            <label asp-for="TipoPermiso" class="control-label"></label>
+            <input asp-for="TipoPermiso" class="form-control" readonly />
+            <span asp-validation-for="TipoPermiso" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="FechaInicio" class="control-label"></label>
+            <input asp-for="FechaInicio" class="form-control" readonly/>
+            <span asp-validation-for="FechaInicio" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="FechaFin" class="control-label"></label>
+            <input asp-for="FechaFin" class="form-control" />
+            <span asp-validation-for="FechaFin" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Motivo"></label>
+            <textarea asp-for="Motivo" class="form-control" rows="5" readonly><</textarea>
+            <span asp-validation-for="Motivo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="IdEmpleado"></label>
+            <select  asp-items="ViewBag.Empleados" class="form-control" disabled>
+            </select>
+            <span asp-validation-for="IdEmpleado" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Estado"></label>
+            <select asp-for="Estado" asp-items="ViewBag.Estados" class="form-control">
+            </select>
+            <span asp-validation-for="Estado" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Observaciones"></label>
+            <textarea asp-for="Observaciones" class="form-control" rows="5"><</textarea>
+            <span asp-validation-for="Observaciones" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Guardar" class="btn btn-primary" />
+        </div>
+    </form>
+
+    <div>
+        <a asp-action="Index" class="back-link">⬅️ Volver a la Lista</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

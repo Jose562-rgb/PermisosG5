@@ -1,0 +1,137 @@
+﻿@model ProyectoControlDePermisos.Models.PermisoLaboral
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background-color: #eef2f3; /* Fondo claro */
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        color: #333;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2c3e50; /* Color oscuro */
+        margin: 40px 0;
+        font-size: 2.5em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background: #ffffff; /* Fondo blanco */
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más marcada */
+        border: 1px solid rgba(41, 128, 185, 0.5); /* Borde celeste sutil */
+    }
+
+    h4 {
+        color: #2980b9; /* Color azul para subtítulos */
+    }
+
+    dt {
+        font-weight: bold; /* Negrita para títulos */
+    }
+
+    .btn-danger {
+        background-color: #e74c3c; /* Rojo */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px; /* Bordes redondeados */
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra del botón */
+    }
+
+        .btn-danger:hover {
+            background-color: #c0392b; /* Rojo más oscuro al pasar el ratón */
+            transform: translateY(-2px); /* Efecto de elevación */
+        }
+
+    .back-link {
+        color: #2980b9; /* Azul */
+        font-weight: bold; /* Negrita */
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        .back-link:hover {
+            color: #1a639b; /* Azul más oscuro al pasar el ratón */
+        }
+</style>
+
+<div class="container">
+    <h1>ALERTA❗</h1>
+    <h3>¿Seguro de que desea eliminar esto?</h3>
+
+    <h4>Detalles del Permiso Laboral</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoPermiso)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TipoPermiso)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaInicio)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FechaInicio)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaFin)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FechaFin)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Motivo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Motivo)
+        </dd>
+        @* <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IdEmpleado)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IdEmpleado)
+        </dd> *@
+        <dt class="col-sm-2">
+            Empleado
+        </dt>
+        <dd class="col-sm-10">
+            @{
+
+                var empleadosList = (IEnumerable<SelectListItem>)ViewBag.Empleados;
+
+
+                var empleadoSeleccionado = empleadosList.FirstOrDefault(e => e.Value == Model.IdEmpleado.ToString());
+            }
+            @if (empleadoSeleccionado != null)
+            {
+                @empleadoSeleccionado.Text
+            }
+            else
+            {
+                <span>No se encontró el empleado</span>
+            }
+        </dd>
+
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="IdPermiso" />
+        <button type="submit" class="btn btn-danger">Eliminar</button> |
+        <a class="back-link" asp-action="Index">Volver a la Lista</a>
+    </form>
+</div>

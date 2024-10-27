@@ -1,0 +1,146 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ProyectoControlDeParqueos.Areas.Identity
+
+@inject SignInManager<ApplicationUsers> SignInManager
+@inject UserManager<ApplicationUsers> UserManager
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProyectoControlDeParqueos</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ProyectoControlDeParqueos.styles.css" asp-append-version="true" />
+    <link href="~/js/datatables/datatables.min.css" rel="stylesheet" asp-append-version="true">
+    <link href="~/js/datatables/responsive.dataTables.min.css" rel="stylesheet" asp-append-version="true">
+    <link href="~/js/datatables/Buttons-2.4.2/css/buttons.dataTables.min.css" rel="stylesheet" asp-append-version="true">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GestionPermisos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                      
+                        
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Empleados" asp-action="Index">Empleados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="PermisoLaboral" asp-action="Index">Bandeja de Entrada</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="PermisoLaboral" asp-action="Historico">Historial</a>
+                            </li>
+                            <li class="nav-item">
+                                <form  asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                
+                                    <button type="submit" class="nav-link btn btn-warning">
+                                  
+                                        Cerrar Sesión
+                                    </button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="PermisoLaboral" asp-action="Create">Crear Permiso Laboral</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="PermisoLaboral" asp-action="Consultar">Consultar Permiso</a>
+                            </li>
+                            
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="/Identity/Account/Login?ReturnUrl=%2F">Iniciar Sesión</a>
+                            </li>
+                        }
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @* <footer class="border-top footer text-muted">
+    <div class="container">
+    &Derechos Reservados; 2024 - GestionPermisos - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+    </footer> *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/datatables/datatables.min.js" asp-append-version="true"></script>
+    <script src="~/js/datatables/pdfmake-0.2.7/pdfmake.min.js" asp-append-version="true"></script>
+    <script src="~/js/datatables/pdfmake-0.2.7/vfs_fonts.js" asp-append-version="true"></script>
+    <script src="~/js/datatables/jszip.min.js" asp-append-version="true"></script>
+    <script src="~/js/datatables/Buttons-2.4.2/js/buttons.bootstrap5.min.js" asp-append-version="true"></script>
+    <script src="~/js/datatables/Buttons-2.4.2/js/dataTables.buttons.min.js" asp-append-version="true"></script>
+    <script src="~/js/datatables/Buttons-2.4.2/js/buttons.print.min.js" asp-append-version="true"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('table').DataTable({
+                language: {
+                    search: "Buscar",
+                    processing: "Busqueda en proceso...",
+                    lengthMenu: "Mostrar MENU registros",
+                    info: "Mostrando START a END de TOTAL registros",
+                    infoEmpty: "Mostrando 0 a 0 de 0 entradas",
+                    infoFiltered: "(Filtrado de MAX registros totales)",
+                    infoPostFix: "",
+                    loadingRecords: "Cargando...",
+                    zeroRecords: "Ningun registro para mostrar",
+                    emptyTable: "No hay datos disponibles en la tabla",
+                    paginate: {
+                        first: "Primero",
+                        previous: "Anterior",
+                        next: "Siguiente",
+                        last: "Ultimo"
+                    },
+                    aria: {
+                        sortAscending: ": activar para ordenar la columna en orden ascendente",
+                        sortDescending: ": activar para ordenar la columna en orden descendente"
+                    }
+                },
+                "order": [[0, 'desc'], [1, 'desc']],
+                dom: '<"fg-toolbar ui-toolbar ui-widget-header ui-helper-clearfix ui-corner-tl ui-corner-tr"Bfr>' +
+                    't' +
+                    '<"fg-toolbar ui-toolbar ui-widget-header ui-helper-clearfix ui-corner-bl ui-corner-br"p>',
+                buttons: {
+                    buttons: [
+                        { extend: 'copy', className: 'btn btn-sm btn-primary' },
+                        { extend: 'print', className: 'btn btn-sm btn-primary' },
+                        { extend: 'csv', className: 'btn btn-sm btn-primary' },
+                        { extend: 'excel', className: 'btn btn-sm btn-primary' },
+                        { extend: 'pdf', className: 'btn btn-sm btn-primary' },
+                    ],
+                    dom: {
+                        button: {
+                            className: 'btn'
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

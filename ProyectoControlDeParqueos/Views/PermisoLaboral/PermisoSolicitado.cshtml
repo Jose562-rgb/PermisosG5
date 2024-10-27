@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Permiso Solicitado";
+}
+
+<div class="container text-center">
+    <h1>Permiso Solicitado</h1>
+    <p>Su permiso ha sido solicitado con éxito. Espere la aprobación.</p>
+</div>
+
+<style>
+    .container {
+        margin-top: 50px;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        color: #2980b9;
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.2em;
+        color: #2c3e50;
+    }
+</style>
+
+<script>
+    // Timer para que se muestr 3 segundos en pantalla el mensaje
+    setTimeout(function () {
+        window.location.href = '/';  
+    }, 3000);
+</script>

@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Bienvenida";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido a la Gestión de Permisos</h1>
+    <p class="lead">Elige una opción a continuación:</p>
+
+    <div class="mt-4">
+        <a class="btn btn-primary" href="@Url.Action("Create", "PermisoLaboral")">Solicitar Permiso Laboral</a>
+        <a class="btn btn-secondary" href="@Url.Action("Consultar", "PermisoLaboral")">Consultar Permiso Laboral</a>
+        <a class="btn btn-success" href="@Url.Action("Index", "PermisoLaboral")">Autorizar Permiso Laboral</a>
+    </div>
+</div>
+
+<style>
+    /* Estilos opcionales para la página de bienvenida */
+    body {
+        background-color: #f8f9fa;
+        color: #343a40;
+    }
+
+    .btn {
+        margin: 10px;
+    }
+</style>

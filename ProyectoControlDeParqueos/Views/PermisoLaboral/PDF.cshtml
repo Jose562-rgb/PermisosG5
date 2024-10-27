@@ -1,0 +1,166 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Imprimir"]</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            padding: 40px;
+            margin-top: 20px;
+        }
+
+        h4 {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+            font-size: 24px;
+            text-decoration: underline;
+        }
+
+        .row {
+            margin: 15px 0;
+        }
+
+        dt {
+            text-align: right;
+            font-weight: bold;
+            padding-right: 15px;
+        }
+
+        dd {
+            border-bottom: 1px dotted #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .signature-space {
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        .signature-line {
+            width: 60%;
+            margin: 15px auto;
+            border-top: 2px solid #333;
+        }
+
+        .approved {
+            font-size: 28px;
+            font-weight: bold;
+            color: #28a745;
+            text-align: center;
+            margin: 40px auto;
+            padding: 10px;
+            border: 2px solid #28a745;
+            border-radius: 5px;
+            max-width: 200px;
+        }
+
+        .print-button {
+            display: block;
+            margin: 20px auto;
+            padding: 12px 25px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+            .print-button:hover {
+                background-color: #0056b3;
+            }
+
+        @@media print {
+            body {
+                background-color: white;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+                border: none;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button onclick="window.print()" class="print-button no-print">Imprimir</button>
+
+        <h4>Información del Permiso</h4>
+
+        <div class="row">
+            <dl class="row">
+                <dt class="col-sm-3">Tipo Permiso</dt>
+                <dd class="col-sm-9">@Model.TipoPermiso</dd>
+
+                <dt class="col-sm-3">Inicio</dt>
+                <dd class="col-sm-9">@Model.FechaInicio.ToString("dd/MM/yyyy")</dd>
+
+                <dt class="col-sm-3">Fin</dt>
+                <dd class="col-sm-9">@Model.FechaFin.ToString("dd/MM/yyyy")</dd>
+
+                <dt class="col-sm-3">Motivo</dt>
+                <dd class="col-sm-9">@Model.Motivo</dd>
+
+                <dt class="col-sm-3">Empleado</dt>
+                <dd class="col-sm-9">
+                    @{
+                        var empleadosList = (IEnumerable<SelectListItem>)ViewBag.Empleados;
+                        var empleadoSeleccionado = empleadosList.FirstOrDefault(e => e.Value == Model.IdEmpleado.ToString());
+                    }
+                    @if (empleadoSeleccionado != null)
+                    {
+                        @empleadoSeleccionado.Text
+                    }
+                    else
+                    {
+                        <span>No se encontró el empleado</span>
+                    }
+                </dd>
+
+                <dt class="col-sm-3">Observaciones</dt>
+                <dd class="col-sm-9">@Model.Observaciones</dd>
+
+            </dl>
+        </div>
+
+        <div class="approved">APROBADO</div>
+
+       @*  <div class="signature-space">
+            <p>Firma del Responsable</p>
+            <div class="signature-line"></div>
+        </div> *@
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
