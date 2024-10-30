@@ -150,7 +150,7 @@
                             </form> *@
                             @if(solicitud.Estado == "Aprobado")
                             {
-                            <a asp-action="PDF" asp-route-id="1" target="_blank" class="btn btn-primary">Imprimir</a>
+                            <a asp-action="PDF" asp-route-id="@solicitud.IdPermiso" target="_blank" class="btn btn-primary">Imprimir</a>
                             }                            
                         </td>
                        

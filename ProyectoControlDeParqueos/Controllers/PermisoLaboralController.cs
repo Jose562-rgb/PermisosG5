@@ -204,13 +204,14 @@ namespace ProyectoControlDeParqueos.Controllers
                                    where e.DPI == dpi // Filtrar por DPI
                                    select new
                                    {
-                                       p.TipoPermiso,
-                                       p.FechaInicio,
-                                       p.FechaFin,
-                                       p.Motivo,
-                                       p.Estado,
-                                       e.NombreCompleto,
-                                       p.Observaciones
+                                       IdPermiso = p.IdPermiso,
+                                       TipoPermiso = p.TipoPermiso,
+                                       FechaInicio = p.FechaInicio,
+                                       FechaFin = p.FechaFin,
+                                       Motivo = p.Motivo,
+                                       Estado = p.Estado,
+                                       NombreCompleto = e.NombreCompleto,
+                                       Observaciones = p.Observaciones
                                    };
 
             // Aplicar filtro por estado si se proporciona
@@ -258,7 +259,7 @@ namespace ProyectoControlDeParqueos.Controllers
             }
 
             var permisoLaboral = await _context.PermisoLaboral
-                .FirstOrDefaultAsync();
+                .FirstOrDefaultAsync(c => c.IdPermiso.Equals(id));
 
             if (permisoLaboral == null)
             {
