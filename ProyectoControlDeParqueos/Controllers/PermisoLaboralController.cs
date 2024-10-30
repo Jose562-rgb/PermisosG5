@@ -50,7 +50,7 @@ namespace ProyectoControlDeParqueos.Controllers
             {
                 new SelectListItem { Value = "Emergencia", Text = "Emergencia" },
                 new SelectListItem { Value = "Vacaciones", Text = "Vacaciones" },
-                new SelectListItem { Value = "Enfermedad", Text = "Vacaciones" },
+                new SelectListItem { Value = "Enfermedad", Text = "Enfermedad" },
                 new SelectListItem { Value = "Cumpleaños", Text = "Cumpleaños" },
                 new SelectListItem { Value = "Maternidad/Paternidad", Text = "Maternidad/Paternidad" }
             };

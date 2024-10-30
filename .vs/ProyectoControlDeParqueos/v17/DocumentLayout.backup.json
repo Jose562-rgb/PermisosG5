@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\proyectocontroldeparqueos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\controllers\\permisolaboralcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\controllers\\permisolaboralcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\proyectocontroldeparqueos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\views\\permisolaboral\\pdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\views\\permisolaboral\\pdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\controllers\\permisolaboralcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\controllers\\permisolaboralcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\controllers\\permisopersonalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\controllers\\permisopersonalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -350,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ProyectoControlDeParqueos.csproj",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj",
@@ -381,7 +381,7 @@
         },
         {
           "DockedWidth": 1215,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -413,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "EmpleadoController.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\EmpleadoController.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Controllers\\EmpleadoController.cs",
@@ -421,11 +421,12 @@
               "RelativeToolTip": "ProyectoControlDeParqueos\\Controllers\\EmpleadoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:43:37.81Z"
+              "WhenOpened": "2024-10-17T21:43:37.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PermisoPersonalController.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\PermisoPersonalController.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Controllers\\PermisoPersonalController.cs",
@@ -437,19 +438,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PermisoLaboralController.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\PermisoLaboralController.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Controllers\\PermisoLaboralController.cs",
               "ToolTip": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\PermisoLaboralController.cs",
               "RelativeToolTip": "ProyectoControlDeParqueos\\Controllers\\PermisoLaboralController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T22:35:01.881Z"
+              "WhenOpened": "2024-10-17T22:35:01.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PDF.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\PermisoLaboral\\PDF.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\PermisoLaboral\\PDF.cshtml",
@@ -461,13 +463,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ProyectoControlDeParqueos\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACgAAAAAAAAAAADgv0MAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-22T20:37:25.461Z",
               "EditorCaption": ""
