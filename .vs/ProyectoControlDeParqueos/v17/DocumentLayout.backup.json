@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\controllers\\permisolaboralcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\controllers\\permisolaboralcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -171,20 +179,12 @@
       "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\models\\solicitudpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\migrations\\20241018024847_findfsfallll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\migrations\\20241018024847_findfsfallll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\migrations\\20240825211606_logininit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\migrations\\20240825211606_logininit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|solutionrelative:proyectocontroldeparqueos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD4CFC4E-BC74-4F40-B509-E54D52F7A268}|ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj|c:\\users\\jmont\\desktop\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\proyectocontroldeparqueos\\models\\permisovacacional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -350,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProyectoControlDeParqueos.csproj",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\ProyectoControlDeParqueos.csproj",
@@ -381,39 +381,19 @@
         },
         {
           "DockedWidth": 1215,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmpleadosController.cs",
-              "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\EmpleadosController.cs",
-              "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Controllers\\EmpleadosController.cs",
-              "ToolTip": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\EmpleadosController.cs",
-              "RelativeToolTip": "ProyectoControlDeParqueos\\Controllers\\EmpleadosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T22:33:45.763Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Auditoria.cs",
-              "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\Auditoria.cs",
-              "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Models\\Auditoria.cs",
-              "ToolTip": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\Auditoria.cs",
-              "RelativeToolTip": "ProyectoControlDeParqueos\\Models\\Auditoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:39:58.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EmpleadoController.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\EmpleadoController.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Controllers\\EmpleadoController.cs",
@@ -425,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PermisoPersonalController.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\PermisoPersonalController.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Controllers\\PermisoPersonalController.cs",
@@ -437,20 +417,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PermisoLaboralController.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\PermisoLaboralController.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Controllers\\PermisoLaboralController.cs",
               "ToolTip": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\PermisoLaboralController.cs",
               "RelativeToolTip": "ProyectoControlDeParqueos\\Controllers\\PermisoLaboralController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAcwLwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T22:35:01.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PDF.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\PermisoLaboral\\PDF.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\PermisoLaboral\\PDF.cshtml",
@@ -462,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\Shared\\_Layout.cshtml",
@@ -474,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "20240929213939_lkasdjflkajsd.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Migrations\\20240929213939_lkasdjflkajsd.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Migrations\\20240929213939_lkasdjflkajsd.cs",
@@ -486,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ApplicationUsers.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\ApplicationUsers.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Models\\ApplicationUsers.cs",
@@ -498,7 +478,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\appsettings.json",
+              "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\appsettings.json",
+              "ToolTip": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\appsettings.json",
+              "RelativeToolTip": "ProyectoControlDeParqueos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-25T20:34:53.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Program.cs",
+              "ToolTip": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Program.cs",
+              "RelativeToolTip": "ProyectoControlDeParqueos\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T20:59:39.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Auditoria.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\Auditoria.cs",
+              "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Models\\Auditoria.cs",
+              "ToolTip": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\Auditoria.cs",
+              "RelativeToolTip": "ProyectoControlDeParqueos\\Models\\Auditoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:39:58.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "ProyectoControlDeParqueos\\Controllers\\EmpleadosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T22:33:45.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Empleados.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\Empleados.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Models\\Empleados.cs",
@@ -510,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Empleadoss.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\Empleadoss.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Models\\Empleadoss.cs",
@@ -522,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "PermisoLaboral.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\PermisoLaboral.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Models\\PermisoLaboral.cs",
@@ -534,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "PermisoLaboralVista.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\PermisoLaboralVista.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Models\\PermisoLaboralVista.cs",
@@ -546,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Details.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Details.cshtml",
@@ -558,7 +588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Consultar.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Consultar.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Consultar.cshtml",
@@ -570,7 +600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Edit.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Edit.cshtml",
@@ -582,7 +612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "PermisoController.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\PermisoController.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Controllers\\PermisoController.cs",
@@ -594,7 +624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Delete.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Delete.cshtml",
@@ -606,7 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Index.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Index.cshtml",
@@ -618,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Create.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Create.cshtml",
@@ -630,7 +660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\Empleados\\Index.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\Empleados\\Index.cshtml",
@@ -642,7 +672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "PermisoSolicitado.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\PermisoLaboral\\PermisoSolicitado.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\PermisoLaboral\\PermisoSolicitado.cshtml",
@@ -654,7 +684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Historico.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Historico.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\PermisoLaboral\\Historico.cshtml",
@@ -666,7 +696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -678,7 +708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Rol.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\Rol.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Models\\Rol.cs",
@@ -690,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Permiso.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\Permiso.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Models\\Permiso.cs",
@@ -702,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "LoginDbContext.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\LoginDbContext.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Models\\LoginDbContext.cs",
@@ -714,7 +744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "AutorizacionPermiso.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\AutorizacionPermiso.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Models\\AutorizacionPermiso.cs",
@@ -726,7 +756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Autorizacion.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\Autorizacion.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Models\\Autorizacion.cs",
@@ -738,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -750,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
@@ -762,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -774,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -786,7 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Controllers\\HomeController.cs",
@@ -798,7 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\Home\\Index.cshtml",
@@ -810,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\Empleados\\Edit.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\Empleados\\Edit.cshtml",
@@ -822,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\Empleados\\Details.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\Empleados\\Details.cshtml",
@@ -834,7 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\Empleados\\Delete.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\Empleados\\Delete.cshtml",
@@ -846,7 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\Empleados\\Create.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\Empleados\\Create.cshtml",
@@ -858,7 +888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "SolicitudPermiso.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Models\\SolicitudPermiso.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Models\\SolicitudPermiso.cs",
@@ -870,7 +900,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Views\\Shared\\_LoginPartial.cshtml",
@@ -891,18 +921,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T17:56:27.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Program.cs",
-              "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Program.cs",
-              "ToolTip": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Program.cs",
-              "RelativeToolTip": "ProyectoControlDeParqueos\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T20:59:39.932Z"
             },
             {
               "$type": "Document",
@@ -954,7 +972,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "20241018024847_findfsfallll.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Migrations\\20241018024847_findfsfallll.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Migrations\\20241018024847_findfsfallll.cs",
@@ -979,18 +997,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 45,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\appsettings.json",
-              "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\appsettings.json",
-              "ToolTip": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\appsettings.json",
-              "RelativeToolTip": "ProyectoControlDeParqueos\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-25T20:34:53.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
               "Title": "20240825211606_LoginInit.cs",
               "DocumentMoniker": "C:\\Users\\jmont\\Desktop\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\ProyectoControlDeParqueos\\Migrations\\20240825211606_LoginInit.cs",
               "RelativeDocumentMoniker": "ProyectoControlDeParqueos\\Migrations\\20240825211606_LoginInit.cs",

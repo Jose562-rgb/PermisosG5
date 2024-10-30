@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Configurar el contexto de la base de datos
 builder.Services.AddDbContext<LoginDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("loginString")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ServidorString")));
 
 // Configurar Identity
 builder.Services.AddDefaultIdentity<ApplicationUsers>(options => options.SignIn.RequireConfirmedAccount = false)
